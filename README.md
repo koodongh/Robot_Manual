@@ -115,3 +115,5 @@ Camera TCP 1DCP
 
 [X,Y] ','단위로 나눠서 데이터를 주면 된다. 
 BASE와 TOOL 좌표에 대해서 
+
+* Shoulder 를 사용할 때에 대해서는 TCP좌표를 잡아야 한다 
