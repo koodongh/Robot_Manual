@@ -112,4 +112,6 @@ off/Back Drive Mode Click
 틀어진 정도만 주게 되면, 좌표를 조정할 수 있다. 
 계산하는 방법. 좌표계꼬다리기준 X,Y F
 Camera TCP 1DCP
- 
+
+[X,Y] ','단위로 나눠서 데이터를 주면 된다. 
+BASE와 TOOL 좌표에 대해서 
