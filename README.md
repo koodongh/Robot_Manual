@@ -145,5 +145,8 @@ Software recovery
 Tool Center Position 
 4 point
 move J, move l
+Rz축으로 돌린다 
 
 Client open 
+
+
