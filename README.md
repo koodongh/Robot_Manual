@@ -130,7 +130,17 @@ Unpack
 직접수정할 경우에는, 하늘색
 JOG AXIS 평행
 INTERLOCK RESET 
-협착된 상태에 대해.
-Protective Stop (노란색) 
+협착된 상태에 대해.무조건 Recovery 모드로 가야한다
+Protective Stop (노란색) - 선택: SS1, SS2
 Recovery에서 predrive
 Collision Sensitivity :1로 사용하면 안된다
+manual 15 SSO 로 해야하는지 확인하기 
+
+Workshell, Safety Stop에 대한 조건을 설정할 수 있다. 
+SS1, SS2
+Collusion SS1,SS0 으로 하면, 빨리 멈춘다
+Software recovery
+
+## TCP
+Tool Center Position 
+4 point
