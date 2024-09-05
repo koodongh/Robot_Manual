@@ -116,4 +116,21 @@ Camera TCP 1DCP
 [X,Y] ','단위로 나눠서 데이터를 주면 된다. 
 BASE와 TOOL 좌표에 대해서 
 
-* Shoulder 를 사용할 때에 대해서는 TCP좌표를 잡아야 한다 
+* Shoulder 를 사용할 때에 대해서는 TCP좌표를 잡아야 한다
+
+## DAY 2
+-- INSTALL
+-- Program
+-- User Manual 
+Task write 
+Limit를 해제해서 사용한다 recovery mode
+Limit가 되면, 빨간색
+Recovery가 되면, 노란색 
+Unpack 
+직접수정할 경우에는, 하늘색
+JOG AXIS 평행
+INTERLOCK RESET 
+협착된 상태에 대해.
+Protective Stop (노란색) 
+Recovery에서 predrive
+Collision Sensitivity :1로 사용하면 안된다
