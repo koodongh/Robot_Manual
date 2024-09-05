@@ -144,3 +144,4 @@ Software recovery
 ## TCP
 Tool Center Position 
 4 point
+move J, move l
