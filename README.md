@@ -153,16 +153,25 @@ Client open
 ## TP -1 
 로봇이 타이어내부를 들어가서 카메라 프로세스 진행. 
 
-1. 동작 - 내부촬영
-   ①현재 Joint 속도 lim
-   ②Custom Code의 Task가 1 Cycle 
-2. 통신
-   ①현재 Joint 속도 lim
-   ②Custom Code의 Task가 1 Cycle 
-3. 코드 
-   ①현재 Joint 속도 lim
-   ②Custom Code의 Task가 1 Cycle
-4. 안전/교육 
-   ①현재 Joint 속도 lim
-   ②Custom Code의 Task가 1 Cycle 
-
+1. 동작 - 내부촬영 (월)
+   ① 현재 Joint 속도 limit
+   - Robot Limits: Workcell manager df
+   ② Custom Code의 Task가 1 Cycle
+   - Real / Vitual
+   
+2. 통신 (월,화)
+   ① pc Socket통신이 끊어졌을 때, Robot도 Error로 같이 끊어짐
+   - Home position : 끊어졌을 때 어떻게 해야하는지 (무한대기) 
+   ② 통신 Status 확인 코드가 잘 안됨
+     코드확인 필요.  (Status를 확인) Client / Server 변경. Try-Ex 동작 확인 
+     
+4. 코드 (월,화)
+   ① 에러에 대한 전반적인 Review
+   ② Thread의 변수가 Main의 코드의 변수로 들어올 수 수 있는지.
+   ③ 충격에 대한 비상 발생 시, 스위치를 통환 동작 코드 구현 필요
+   - DIO, ETH 통신으로 리턴을 어디로 주는지 확인 → 충돌했을 때, Recovery
+   - 과한 Load가 걸릴 경우, 어떻게 할지에 대해서 확인하기 
+   
+6. 안전/교육  - 목,금
+   ① 안전에 대한 Review
+   ② 
