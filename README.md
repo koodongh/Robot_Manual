@@ -163,7 +163,8 @@ Client open
    ① pc Socket통신이 끊어졌을 때, Robot도 Error로 같이 끊어짐
    - Home position : 끊어졌을 때 어떻게 해야하는지 (무한대기) 
    ② 통신 Status 확인 코드가 잘 안됨
-     코드확인 필요.  (Status를 확인) Client / Server 변경. Try-Ex 동작 확인 
+     코드확인 필요.  (Status를 확인) Client / Server 변경. Try-Ex 동작 확인, Check-False.함수(Senseity ↑)
+     예외 경우(사람이 치는 경우, 사람이 누르는 경우, 타이어가 치는경우) Retry-가능 (노랑색으로 멈춘다? 봐야 확인가능함) 
      
 4. 코드 (월,화)
    ① 에러에 대한 전반적인 Review
