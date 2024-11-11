@@ -150,3 +150,19 @@ Rz축으로 돌린다
 Client open 
 
 
+## TP -1 
+로봇이 타이어내부를 들어가서 카메라 프로세스 진행. 
+
+1. 동작 - 내부촬영
+   ①현재 Joint 속도 lim
+   ②Custom Code의 Task가 1 Cycle 
+2. 통신
+   ①현재 Joint 속도 lim
+   ②Custom Code의 Task가 1 Cycle 
+3. 코드 
+   ①현재 Joint 속도 lim
+   ②Custom Code의 Task가 1 Cycle
+4. 안전/교육 
+   ①현재 Joint 속도 lim
+   ②Custom Code의 Task가 1 Cycle 
+
