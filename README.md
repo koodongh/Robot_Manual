@@ -174,6 +174,7 @@ Client open
    - 과한 Load가 걸릴 경우, 어떻게 할지에 대해서 확인하기 
    - 스위치 Box에서의 버튼을 사용에 대한 의도 : 1)Lock 푸는것, 2)Home position
    - 시나리오 구성 : 로봇이 안에 있는지(home location ). 로봇이 밖에 있는지
+   - Operation Box
      
 4. 안전/교육  - 목,금
    ① 안전에 대한 Review
