@@ -157,7 +157,7 @@ Client open
    ① 현재 Joint 속도 limit
    - Robot Limits: Workcell manager df
    ② Custom Code의 Task가 1 Cycle
-   - Real / Vitual
+   - Real / Virtual
    
 2. 통신 (월,화)
    ① pc Socket통신이 끊어졌을 때, Robot도 Error로 같이 끊어짐
@@ -166,13 +166,15 @@ Client open
      코드확인 필요.  (Status를 확인) Client / Server 변경. Try-Ex 동작 확인, Check-False.함수(Senseity ↑)
      예외 경우(사람이 치는 경우, 사람이 누르는 경우, 타이어가 치는경우) Retry-가능 (노랑색으로 멈춘다? 봐야 확인가능함) 
      
-4. 코드 (월,화)
+3. 코드 (월,화)
    ① 에러에 대한 전반적인 Review
    ② Thread의 변수가 Main의 코드의 변수로 들어올 수 수 있는지. → 모션은 안된다. 통신만 가능하다.(메인 서보에서. thread 통신을 보내고 저장을 한다)
    ③ 충격에 대한 비상 발생 시, 스위치를 통환 동작 코드 구현 필요
    - DIO, ETH 통신으로 리턴을 어디로 주는지 확인 → 충돌했을 때, Recovery
    - 과한 Load가 걸릴 경우, 어떻게 할지에 대해서 확인하기 
-   
-6. 안전/교육  - 목,금
+   - 스위치 Box에서의 버튼을 사용에 대한 의도 : 1)Lock 푸는것, 2)Home position
+   - 시나리오 구성 : 로봇이 안에 있는지(home location ). 로봇이 밖에 있는지
+     
+4. 안전/교육  - 목,금
    ① 안전에 대한 Review
    ② 
